@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playpen+Sans:wght@100..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Playpen Sans", serif;
+
+}
+body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    background  : linear-gradient(45deg,#0a0a0a,#3a4452);
+
+}
+.Calculator{
+    padding: 20px;
+    margin-bottom:30px;
+    border-radius: 16px;
+    background-color: transparent;
+    box-shadow: 0px 3px 15px rgba(113,115,119,0.5) ;
+    border: 1px solid #717377;
+}
+input{
+    width: 320px;
+    border: none;
+    padding: 24px;
+    margin: 10px;
+    background-color: transparent;
+    font-size: 40px;
+    box-shadow: 0px 3px 15px rgba(84,84,84,0.1) ;
+    text-align: right;
+    cursor: pointer;
+    color: #ffffff;
+}
+input::placeholder{
+    color: #ffffff;
+}
+
+.button{
+    border: none;
+    margin: 10px;
+    height: 60px;
+    border-radius: 50px;
+    box-shadow:-8px -8px -15px rgba(147, 92, 92, 0.1);
+    background-color: transparent;
+    color: #ffffff;
+font-size: 20px;
+    width: 60px;
+    background-color:;
+   
+}
+.color_orange{
+    background-color: orangered;
+}
+.operator{
+    background-color: #3a4452;
+}
+
+
+
+
+
